@@ -100,4 +100,6 @@ $ML(\theta | \xi=0, d=d_2) = P(\theta_1| \xi=0)L(\theta_1, d_2) + P(\theta_2| \x
 
 $ML(\theta | \xi=1, d=d_1) = P(\theta_1| \xi=1)L(\theta_1, d_1) + P(\theta_2| \xi=1)L(\theta_2, d_1) = \frac{23\beta}{35-12\beta} \cdot 0 + \frac{35(1- \beta)}{35-12\beta} \cdot \frac{17}{4} = \frac{595(1-\beta)}{140-48\beta} $ 
 
-$ML(\theta | \xi=1, d=d_2) = P(\theta_1| \xi=1)L(\theta_1, d_2) + P(\theta_2| \xi=1)L(\theta_2, d_2) = \frac{23\beta}{35-12\beta} \cdot \frac{17}{6} + \frac{35(1- \beta)}{35-12\beta} \cdot \frac{17}{12} = \frac{187\beta - 595}{420 - 144\beta} $ 
+$ML(\theta | \xi=1, d=d_2) = P(\theta_1| \xi=1)L(\theta_1, d_2) + P(\theta_2| \xi=1)L(\theta_2, d_2) = \frac{23\beta}{35-12\beta} \cdot \frac{17}{6} + \frac{35(1- \beta)}{35-12\beta} \cdot \frac{17}{12} = \frac{187\beta - 595}{420 - 144\beta} $
+
+Найдем точку пересечения: $ \frac{425(1-\beta)}{100+48\beta} = \frac{833\beta+425}{300+144\beta} $; $\beta = \frac{25}{62} \approx 0.4$ 
