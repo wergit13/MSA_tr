@@ -13,5 +13,8 @@ def mdLabelNumber(label, num, pres = 4):
     str = f"$${label}" + f"= {num:10.{pres}f}$$"
     return Latex(str)
 
+def vectorToStr(arr):
+    return "\\begin{pmatrix}" + " \\\\ ".join(["{:.2f}".format(elem) for elem in arr]) + "\\end{pmatrix}"
+
 def printMd(str):
     display(Latex(str))
